@@ -1,0 +1,28 @@
+# Environment
+.env
+.env.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Generated data
+backend/data/
+backend/embeddings/
+*.mp4
+
+# Frontend
+node_modules/
+.next/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
