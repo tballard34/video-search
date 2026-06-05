@@ -2,6 +2,7 @@ import containerQueries from "@tailwindcss/container-queries";
 import typography from "@tailwindcss/typography";
 import type { Config } from "tailwindcss";
 import tailwindcssAnimate from "tailwindcss-animate";
+import { withUt } from "uploadthing/tw";
 
 const config: Config = {
   darkMode: ["class"],
@@ -67,4 +68,4 @@ const config: Config = {
   plugins: [tailwindcssAnimate, containerQueries, typography],
 } satisfies Config;
 
-export default config;
+export default withUt(config);

@@ -1,10 +1,12 @@
 import { TbSearch } from "react-icons/tb";
 
+import VideoUpload from "./VideoUpload";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 function HelloWorld() {
   return (
-    <div className="flex min-h-screen items-center justify-center p-4">
+    <div className="flex min-h-screen flex-col items-center justify-center gap-8 p-4">
+      <VideoUpload />
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <CardTitle className="flex items-center justify-center gap-2">

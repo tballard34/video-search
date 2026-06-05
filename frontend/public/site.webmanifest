@@ -1,6 +1,6 @@
 {
-  "name": "Video Search",
-  "short_name": "VideoSearch",
+  "name": "Video Vibers",
+  "short_name": "Vibers",
   "description": "Search and explore video content with semantic embeddings.",
   "start_url": "/",
   "scope": "/",

@@ -6,7 +6,11 @@
   "installCommand": "npx pnpm@10.33.2 install --config.confirmModulesPurge=false",
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    },
+    {
+      "source": "/((?!api/).*)",
       "destination": "/index.html"
     }
   ]

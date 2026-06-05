@@ -19,4 +19,12 @@ export default defineConfig({
       "@": path.resolve("./src"),
     },
   },
+  server: {
+    proxy: {
+      "/api/uploadthing": {
+        target: "http://localhost:3001",
+        changeOrigin: true,
+      },
+    },
+  },
 });
