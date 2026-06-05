@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core System Colors */
+    --background: 210 40% 98%; /* #f1f5f9 - Main app background (promoted from muted) */
+    --foreground: 222.2 84% 4.9%; /* #0a0a0a - Main text */
+    --foreground-secondary: 215.4 16.3% 46.9%; /* #64748b - Secondary text */
+
+    /* Brand Colors */
+    --primary: 210 100% 55%; /* #1685ff - Brand Blue */
+    --primary-foreground: 0 0% 100%; /* #ffffff - White text on blue */
+    --primary-hover: 210 100% 50%; /* #0066cc - Darker blue for hover */
+
+    /* Surface Colors */
+    --surface: 0 0% 100%; /* #ffffff - Cards and elevated surfaces */
+
+    /* System Colors */
+    --border: 214.3 31.8% 91.4%; /* #e2e8f0 - Borders */
+    --destructive: 0 84.2% 60.2%; /* #ef4444 - Error states */
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    /* Core System Colors */
+    --background: 0 0% 3%; /* #1e293b - Main dark background */
+    --foreground: 210 40% 98%; /* #f8fafc - Light text */
+
+    /* Brand Colors */
+    --primary: 210 100% 60%; /* #3399ff - Lighter blue for dark mode */
+    --primary-foreground: 0 0% 100%; /* #ffffff - White text on blue */
+    --primary-hover: 210 100% 65%; /* #66b3ff - Lighter blue for hover */
+
+    /* Surface Colors */
+    --surface: 0 0% 7%; /* #0c0a09 - Dark cards and elevated surfaces */
+    --foreground-secondary: 215 20.2% 65.1%; /* #94a3b8 - Secondary light text */
+
+    /* System Colors */
+    --border: 0 0% 16%; /* #1e293b - Dark borders */
+    --destructive: 0 84.2% 60.2%; /* #ef4444 - Brighter red for dark mode */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  .disable-theme-transitions,
+  .disable-theme-transitions *,
+  .disable-theme-transitions *::before,
+  .disable-theme-transitions *::after {
+    transition: none !important;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-4px);
+  }
+  40% {
+    transform: translateX(4px);
+  }
+  60% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(2px);
+  }
+}

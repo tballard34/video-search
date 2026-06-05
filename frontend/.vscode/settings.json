@@ -1,0 +1,52 @@
+{
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+
+  "files.associations": {
+    "*.gitignore": "gitignore"
+  },
+
+  "[gitignore]": {
+    "editor.formatOnSave": false
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+
+  "svg.preview.background": "transparent"
+}

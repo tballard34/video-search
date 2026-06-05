@@ -1,0 +1,46 @@
+---
+description: contains information and commands for development, building, and running
+globs: 
+alwaysApply: false
+---
+# Frontend Development Workflow
+
+## Getting Started
+Navigate to the frontend directory and install dependencies:
+```bash
+cd services/frontend
+pnpm install
+```
+
+## Development Commands
+All commands should be run from `services/frontend/` directory:
+
+### Core Development
+- `pnpm dev` - Start development server (usually runs on http://localhost:5173)
+- `pnpm build` - Build for production (runs TypeScript check + Vite build)
+- `pnpm preview` - Preview production build locally
+
+### Code Quality
+- `pnpm lint` - Run ESLint on source files
+- `pnpm lint:fix` - Auto-fix ESLint issues
+- `pnpm format` - Format code with Prettier
+- `pnpm format:check` - Check if code is properly formatted
+
+### Testing
+- `pnpm test` - Run tests with Vitest
+- `pnpm test:ui` - Run tests with interactive UI
+
+## Development Server
+- Default port: 5173 (may auto-increment if busy)
+- Hot module replacement (HMR) enabled
+- TypeScript errors show in both terminal and browser
+
+## Build Process
+1. **TypeScript check** - Ensures no type errors
+2. **Vite build** - Bundles and optimizes for production
+3. **Output** - Generated files go to `dist/` directory
+
+## Code Style
+- **TypeScript required** - All new files should be .ts or .tsx
+- **Prettier formatting** - 150-character line length, single quotes, no semicolons
+- **ESLint rules** - Modern flat config with TypeScript and React rules

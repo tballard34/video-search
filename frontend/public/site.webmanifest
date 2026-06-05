@@ -1,0 +1,45 @@
+{
+  "name": "Video Search",
+  "short_name": "VideoSearch",
+  "description": "Search and explore video content with semantic embeddings.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#1685ff",
+  "background_color": "#ffffff",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/images/icons/temp-web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/temp-web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/temp-apple-touch-icon-black.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "apple-touch-icon"
+    },
+    {
+      "src": "/images/icons/temp-apple-touch-icon-black.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/icons/temp-favicon-color-changing.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "utilities"]
+}

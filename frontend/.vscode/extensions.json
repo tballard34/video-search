@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "bradlc.vscode-tailwindcss",
+    "oxc.oxc-vscode",
+    "eamodio.gitlens",
+    "naumovs.color-highlight",
+    "oderwat.indent-rainbow",
+    "visualstudioexptteam.vscodeintellicode",
+    "foxundermoon.shell-format",
+    "jock.svg",
+    "redhat.vscode-yaml",
+    "dsznajder.es7-react-js-snippets",
+    "irongeek.vscode-env",
+    "dotenvx.dotenvx-vscode-extension"
+  ]
+}
